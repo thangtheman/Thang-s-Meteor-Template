@@ -1,0 +1,11 @@
+
+<ul>
+    <li ng-repeat="article in articles ">
+        <a href="{{article.link}}">{{article.title}}</a>
+        <br/> {{article.description}}
+          <br>
+        <button ng-click="removeArticle(article._id)">Remove</button>
+        <a href="article/edit/{{article._id}}"><button>Edit</button></a>
+        <label><input class="checkbox" type="checkbox" ng-model="article.public" value="">Public</label>
+    </li>
+</ul>

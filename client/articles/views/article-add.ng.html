@@ -1,0 +1,15 @@
+<form class="form-inline" style="margin-left: 50px;">
+        <div class="form-group">
+            <label for="title">Title</label>
+            <input ng-model="newArticle.title" type="text" class="form-control" id="title" placeholder="Article Title">
+    </div>
+    <div class="form-group">
+        <label for="description">Description</label>
+        <input ng-model="newArticle.description" type="text" class="form-control" id="description" placeholder="Article Description">
+    </div>
+    <div class="form-group">
+    <label for="link">Links</label>
+    <input ng-model="newArticle.url" type="text" class="form-control" id="link" placeholder="Article URL">
+</div>
+    <button ng-click="newArticle.owner=$root.currentUser._id; articles.push(newArticle);newArticle=''; " type="submit" class="btn btn-default">Submit</button>
+</form>
