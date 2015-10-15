@@ -1,4 +1,4 @@
 if (Meteor.isClient) {
-    angular.module('socially',['angular-meteor','ui.router']);
+    angular.module('rental',['angular-meteor','ui.router']);
 
 }

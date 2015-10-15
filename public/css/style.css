@@ -1,0 +1,113 @@
+.navbar-inner {
+    background-color:transparent;
+    text-align: center;
+}
+
+#logo-sml{
+  border-radius: 10px 10px 10px 10px;
+  width: 65px;
+}
+.navbar-nav {
+  width: 100%;
+  margin: 0;
+  text-align: center;}
+.nav li {
+    float: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+
+.aboutus
+{
+    z-index:100;
+    position:absolute;
+    color:white;
+    font-size:50px;
+    font-weight:bold;
+    left:150px;
+    top:350px;
+    color:white;
+    position:absolute;
+    top:30%;
+    left: center;
+    width:100%;
+}
+
+
+
+
+#index-video .index-video-container {    min-height: 640px;    padding-bottom: 50px;    position: relative;    overflow: hidden;}
+#index-video .index-video-container:after {
+  background:url('../img/video_bg_pattern.png') repeat; bottom: 0px; content: ""; left: 0; opacity: 0.7; position: absolute; right: 0; top: 0; z-index: 1; }
+#index-video .index-video-container .videocaption { left: 1%; position: absolute; right: 1%; text-align: center; top: 35%; z-index: 2; }
+#index-video .index-video-container .videocaption h2 { color: #7dd5c9; font-size: 3.5em; text-shadow: -1px 1px 0 #2d2d2f;  }
+#index-video .index-video-container .videocaption h4 { color: #fff; font-size: 2em; font-weight: 300; margin-top: 25px; text-shadow: -1px 1px 0 #2d2d2f; }
+#index-video .index-video-container .videocaption .btn-slide { background:#DE6262; color: #fff; font-size: 19px; font-weight:400;margin: 25px auto 10px auto; padding: 7px 20px; border-radius:0; }
+#index-video video {    width:100%;    background-size: cover;    position: absolute;    top: 0;    left: 0;}
+.home1{
+  text-align: center;
+  align-content: center;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.home-space{
+  padding-top: 70px;
+}
+.features { overflow: hidden; padding: 75px 0; }
+.features h2 { font-weight: 900; margin-bottom: 12px; text-align: center; }
+.features span { display: block; font-size: 18px; font-weight: 300; text-align: center; }
+.feature { text-align: center; }
+.feature img { margin: 0 auto; }
+.feature i { font-size:58px; color:#DE6262; }
+.feature h4 { font-weight: 500; margin-top: 30px; }
+.feature p { font-size: 17px; font-weight: 300; margin: 18px 0 0; padding: 0 40px; }
+.sf-menu{
+  font: Helvetica;
+  font-size: 20px;
+}
+.featurette-divider {
+      margin: 20px 0; /* Space out the Bootstrap <hr> more */
+    }
+.featurette {
+      padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+      overflow: hidden; /* Vertically center images part 2: clear their floats. */
+}
+.featurette-image {
+      margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+}
+
+    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+.featurette-image.pull-left {
+      margin-right: 40px;
+}
+.featurette-image.pull-right {
+      margin-left: 40px;
+}
+
+    /* Thin out the marketing headings */
+.featurette-heading {
+      font-size: 50px;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+}
+.featurette {
+            height: auto;
+            padding: 0;
+}
+.featurette-image.pull-left,
+.featurette-image.pull-right {
+            display: block;
+            float: none;
+            max-width: 40%;
+            margin: 0 auto 20px;
+}
+
+@media (max-width: 767px) {
+  .hidden-xs {
+    display: none !important;
+  }
+}

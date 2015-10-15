@@ -1,31 +1,17 @@
 <template name="header">
 
-    <nav class="navbar navbar-inverse ">
+      <nav class=" nav navbar navbar-fixed-top" role="navigation">
         <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="/">
-                    <img alt="Brand" style="border-radius: 10px 10px 10px 10px;"  width="55px" src="img/diamond-logo.gif">
-                </a>
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-left">
-                  <li><a href="/">Home</a></li>
-                  <li><a href="/articles"> List Articles</a> </li>
-                  <li><a href="/page2">Page2</a></li>
-                  <li><a href="/page3">Page3</a></li>
-                  <li><a href="/page4">Page4</a></li>
-                  <li><a href="/article-add"> Article Add</a> </li>
-                </ul>
-                
-                <ul class="nav navbar-nav navbar-right">
-                  <li><a href="">{{>loginButtons align="right"}}</a></li>
-                  <li><a href="#contact">Carts</a></li>
-                </ul>
-              </div>
-
-            </div>
+            <ul class="navbar-nav sf-menu">
+              <li><a href="/">Home</a></li>
+              <li><a href="/AboutUs">About Us</a> </li>
+              <li><a href="/Features"> Features</a> </li>
+              <li><a href="">{{>loginButtons}}</a></li>
+            </ul>
 
 
-    </nav>
+        </div><!-- /.container-fluid -->
+      </nav>
+
 
 </template>

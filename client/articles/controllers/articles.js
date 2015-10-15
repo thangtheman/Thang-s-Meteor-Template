@@ -1,4 +1,4 @@
-angular.module("socially").controller("ArticlesListCtrl", ['$scope', '$meteor',
+angular.module("rental").controller("ArticlesListCtrl", ['$scope', '$meteor',
     function($scope, $meteor) {
 
         $scope.articles = $meteor.collection(Articles);
